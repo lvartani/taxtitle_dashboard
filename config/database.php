@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'sqlsrv'),
 
     /*
     |--------------------------------------------------------------------------
@@ -76,6 +76,15 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
+        ],
+
+         'sqlsrv' => [
+           'driver' => 'sqlsrv',
+           'host' => 'vsql25', // Provide IP address here
+           'database' => 'EDW_Generic',
+           'username' => 'Tableau_prod_readusr',
+           'password' => 'Tableau_prod_readusr@2015',
+           'prefix' => '',
         ],
 
     ],
