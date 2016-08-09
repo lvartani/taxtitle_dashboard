@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+    font-family: 'Montserrat', sans-serif !important;
+    background-color:white;
+    padding-top: 250px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: black;
+}
+
+h2, h3{
+    font-family: 'Raleway';
+
+}
+
+#title{
+    text-align: left;
+    padding-left: 20px;
+}
+
+img#logo {
+    height: 100px;
+    top:0px;
+    display: inline;
+}
+
+
+img#icon{
+    height:200px;
+}
+header {
+    height: 450px;
+    padding-top: 50px;
+
+}
+
+
+/*----------------------
+  $NAVBAR
+  ----------------------*/
+
+.main-nav,
+.main {
+  position: relative;
+}
+
+.main-nav {
+  background: #fff;
+  height: 80px;
+  z-index: 3500;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background:#091F2F;
+}
+
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main {
+  background: #fff;
+  padding: 110px 50px 50px;
+}
+
+.title_header{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left:10px;
+    color: #091F2F;
+}
+h1.title_header{
+    display: inline;
+}
+
+
+
+.description {
+    font-family: 'Raleway';
+    background-color: grey;
+    border-radius: 3px;
+    position:relative;
+    bottom:0px;
+    float:left;
+}
+
+.incidents{
+    border-width: thin;
+}
+
+
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.date {
+    color:white;
+}
+
+.github {
+    float:right;
+}
+
+.flash_message {
+    width:100%;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:lightblue;
+    font-weight:bold;
+}
+
+
+html { height: 100% }
+/*body { height: 100%; margin: 0px; padding: 0px }*/
+#map_canvas {
+    height: 600px;
+    width:  60%;
+    float:right;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width:100%;
+    }
+}
+
+.buttons{
+    padding:20px;
+    margin-top: 20px;
+    font-family:'Montserrat', sans-serif !important;
+}
+/*
+.bottom_nav {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}*/
+
+footer a:link, nav a:link {
+    text-decoration:none;
+}
+
+/*.bottom_nav li {
+    display:inline;
+    background-color:lightgrey;
+    padding:5px;
+    margin-right:5px;
+    border-radius: 5px;
+    padding:3px;
+    /*box-shadow: 3px 3px 1px #888888;*/
+}*/
+
+#about {
+    float:right
+}
+#about_content{
+
+    margin-right:10px !important;
+    margin-left:10px !important;
+}
+
+#rowReset{
+    cursor:pointer !important;
+}
+input[type=search]{
+    float:right !important;
+    width:400px;
+}
+
+ label {
+     float:right;
+}
+
+#dc-table-chart_filter{
+    display:none !important;
+}
+
+.search{
+    color:white;
+    padding:5px;
+}

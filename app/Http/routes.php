@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'IncidentController@getShow');
+
+Route::get('/index', 'IncidentController@getIndex');
 
 
 Route::get('/debug', function() {
@@ -39,7 +39,7 @@ Route::get('/debug', function() {
 
     echo '<h1>Test Database Connection</h1>';
     try {
-        $results =  DB::table('AF_TaxTitle')->get(); 
+        $results =  DB::table('DOIT_TaxTitleActive')->get();
         echo '<strong style="background-color:green; padding:5px;">Connection confirmed</strong>';
         echo "<br><br>Your Databases:<br><br>";
         print_r($results);

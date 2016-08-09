@@ -80,10 +80,10 @@ return [
 
          'sqlsrv' => [
            'driver' => 'sqlsrv',
-           'host' => 'vsql25', // Provide IP address here
-           'database' => 'EDW_Generic',
-           'username' => 'Tableau_prod_readusr',
-           'password' => 'Tableau_prod_readusr@2015',
+           'host' => 'ZDCOBSQL21', // Provide IP address here
+           'database' => 'SandboxQA',
+           'username' => 'Tableau_dev_readusr',
+           'password' => 'Tableau_dev_readusr@2015',
            'prefix' => '',
         ],
 
